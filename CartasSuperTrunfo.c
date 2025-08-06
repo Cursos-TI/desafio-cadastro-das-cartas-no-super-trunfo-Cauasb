@@ -9,6 +9,7 @@
 
 int main() {
 
+    printf ("Desafio Super Trunfo\n");
     char estado;
     char codigo[3];
     char nomeCidade[30];
@@ -40,7 +41,7 @@ int main() {
 
     printf("\nINFORMAÇÔES DA CARTA\n");
     printf("Estado: %c\n", estado);
-    printf("Codigo: %s\n", codigo);
+    printf("Codigo: %s%*s\n", codigo);
     printf("Cidade: %s\n", nomeCidade);
     printf("Populacao: %d\n", populacao);
     printf("Area: %f\n", area);
