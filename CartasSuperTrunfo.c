@@ -10,22 +10,25 @@
 int main() {
 
     printf ("Desafio Super Trunfo\n");
-    char estado;
-    char codigo[3];
-    char nomeCidade[30];
-    int populacao;
-    float area;
-    float pib;
-    int pontosTuristicos;
+    
+    Printf ("Carta 01\n");
+    
+    char estado1;
+    char codigo1[3];
+    char nomeCidade1[30];
+    int populacao1;
+    float area1;
+    float pib1;
+    int pontosTuristicos1;
 
     printf("Estado: ");
-    scanf("%c%*c", &estado);
+    scanf("%C", &estado);
 
     printf("Codigo: ");
-    scanf("%s%*s", codigo);
+    scanf("%s", &codigo);
 
     printf("Nome da cidade: ");
-    scanf("%s", nomeCidade);
+    scanf("%s", &nomeCidade);
 
     printf("Populacao: ");
     scanf("%d", &populacao);
