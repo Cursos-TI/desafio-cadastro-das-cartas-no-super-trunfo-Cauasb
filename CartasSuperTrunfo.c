@@ -12,9 +12,9 @@ int main() {
     printf ("Desafio Super Trunfo\n");
     
     Printf ("Carta 01\n");
-    
+
     char estado1;
-    char codigo1[3];
+    char codigo1[40];
     char nomeCidade1[30];
     int populacao1;
     float area1;
@@ -22,34 +22,34 @@ int main() {
     int pontosTuristicos1;
 
     printf("Estado: ");
-    scanf("%C", &estado);
+    scanf("%s", &estado1);
 
     printf("Codigo: ");
-    scanf("%s", &codigo);
+    scanf("%s", &codigo1\0);
 
     printf("Nome da cidade: ");
-    scanf("%s", &nomeCidade);
+    scanf("%s", &nomeCidade1);
 
     printf("Populacao: ");
-    scanf("%d", &populacao);
+    scanf("%d", &populacao1);
 
     printf("Area: ");
-    scanf("%f", &area);
+    scanf("%f", &area1);
 
     printf("PIB: ");
-    scanf("%f", &pib);
+    scanf("%f", &pib1);
 
     printf("Pontos turisticos: ");
-    scanf("%d", &pontosTuristicos);
+    scanf("%d", &pontosTuristicos1);
 
     printf("\nINFORMAÇÔES DA CARTA\n");
-    printf("Estado: %c\n", estado);
-    printf("Codigo: %s%*s\n", codigo);
-    printf("Cidade: %s\n", nomeCidade);
-    printf("Populacao: %d\n", populacao);
-    printf("Area: %f\n", area);
-    printf("PIB: %f\n", pib);
-    printf("Pontos turisticos: %d\n", pontosTuristicos);
+    printf("Estado: %c\n", estado1);
+    printf("Codigo: %s%*s\n", codigo1);
+    printf("Cidade: %s\n", nomeCidade1);
+    printf("Populacao: %d\n", populacao1);
+    printf("Area: %f\n", area1);
+    printf("PIB: %f\n", pib1);
+    printf("Pontos turisticos: %d\n", pontosTuristicos1);
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
