@@ -11,7 +11,7 @@ int main() {
 
     printf ("Desafio Super Trunfo\n");
     
-    Printf ("Carta 01\n");
+    printf ("Carta 01\n");
 
     char estado1;
     char codigo1[04];
@@ -25,7 +25,7 @@ int main() {
     scanf("%s", &estado1);
 
     printf("Codigo: ");
-    scanf("%s", &codigo1\0);
+    scanf("%s3saop%*s", &codigo1);
 
     printf("Nome da cidade: ");
     scanf("%s", &nomeCidade1);
