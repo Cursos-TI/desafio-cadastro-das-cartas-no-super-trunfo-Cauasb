@@ -14,7 +14,7 @@ int main() {
     Printf ("Carta 01\n");
 
     char estado1;
-    char codigo1[40];
+    char codigo1[04];
     char nomeCidade1[30];
     int populacao1;
     float area1;
