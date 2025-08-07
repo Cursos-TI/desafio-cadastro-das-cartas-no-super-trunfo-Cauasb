@@ -13,7 +13,7 @@ int main() {
     
     printf ("Carta 01\n");
 
-    char estado1;
+    char estado1[50];
     char codigo1[04];
     char nomeCidade1[30];
     int populacao1;
@@ -21,11 +21,11 @@ int main() {
     float pib1;
     int pontosTuristicos1;
 
-    printf("Estado: ");
-    scanf("%s", &estado1);
+    printf("Estado: ");SAO
+    scanf("%s", estado1);
 
     printf("Codigo: ");
-    scanf("%s3saop%*s", &codigo1);
+    scanf("%s3%*s", &codigo1);
 
     printf("Nome da cidade: ");
     scanf("%s", &nomeCidade1);
